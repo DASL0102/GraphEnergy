@@ -1,0 +1,41 @@
+{
+    "arcos": [
+        {
+            "costo": 1,
+            "id_source": "985414287",
+            "id_target": "71435265"
+        }
+    ],
+    "nodos": [
+        {
+            "currentEnergy": 990.0,
+            "energy": 1000.0,
+            "id": "985414287",
+            "idpertenece": "0",
+            "name": "Guri",
+            "tipo": "Estacion",
+            "x": 322.0,
+            "y": 251.99998474121094
+        },
+        {
+            "currentEnergy": 10.0,
+            "energy": 10.0,
+            "id": "71435265",
+            "idpertenece": "985414287",
+            "name": "Distribuidor",
+            "tipo": "SubEstacion",
+            "x": 383.0,
+            "y": 513.0
+        },
+        {
+            "currentEnergy": 0,
+            "energy": 1.0,
+            "id": "1710029190",
+            "idpertenece": "0",
+            "name": "Consumidor",
+            "tipo": "Casa",
+            "x": 340.0,
+            "y": 809.9999389648438
+        }
+    ]
+}

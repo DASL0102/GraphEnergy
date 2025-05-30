@@ -1,0 +1,7 @@
+# Ignora archivos no necesarios
+.vscode/settings.json
+.vscode/
+build/
+RedElectrica
+*.dot
+DeSiGNAR/

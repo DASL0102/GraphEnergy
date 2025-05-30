@@ -1,0 +1,271 @@
+{
+    "arcos": [
+        {
+            "costo": 1,
+            "id_source": "298597974",
+            "id_target": "2140578239"
+        },
+        {
+            "costo": 1,
+            "id_source": "2140578239",
+            "id_target": "782149720"
+        },
+        {
+            "costo": 1,
+            "id_source": "2140578239",
+            "id_target": "1010797591"
+        },
+        {
+            "costo": 1,
+            "id_source": "1010797591",
+            "id_target": "160959953"
+        },
+        {
+            "costo": 1,
+            "id_source": "2140578239",
+            "id_target": "1760923999"
+        },
+        {
+            "costo": 1,
+            "id_source": "298597974",
+            "id_target": "1010550535"
+        },
+        {
+            "costo": 1,
+            "id_source": "1010550535",
+            "id_target": "66003364"
+        },
+        {
+            "costo": 1,
+            "id_source": "1010550535",
+            "id_target": "155890573"
+        },
+        {
+            "costo": 2,
+            "id_source": "155890573",
+            "id_target": "523494851"
+        },
+        {
+            "costo": 2,
+            "id_source": "155890573",
+            "id_target": "459327610"
+        },
+        {
+            "costo": 2,
+            "id_source": "155890573",
+            "id_target": "971994120"
+        },
+        {
+            "costo": 2,
+            "id_source": "459327610",
+            "id_target": "1358781512"
+        },
+        {
+            "costo": 2,
+            "id_source": "971994120",
+            "id_target": "915213188"
+        },
+        {
+            "costo": 2,
+            "id_source": "971994120",
+            "id_target": "136603821"
+        },
+        {
+            "costo": 2,
+            "id_source": "2140578239",
+            "id_target": "145052978"
+        }
+    ],
+    "nodos": [
+        {
+            "currentEnergy": 499600.0,
+            "energy": 500000.0,
+            "id": "298597974",
+            "idpertenece": "0",
+            "name": "estacion1",
+            "tipo": "Estacion",
+            "x": 193.0,
+            "y": 430.9999694824219
+        },
+        {
+            "currentEnergy": 10.0,
+            "energy": 100.0,
+            "id": "2140578239",
+            "idpertenece": "298597974",
+            "name": "sub1",
+            "tipo": "SubEstacion",
+            "x": 261.0,
+            "y": 144.0
+        },
+        {
+            "currentEnergy": 0,
+            "energy": 20.0,
+            "id": "782149720",
+            "idpertenece": "2140578239",
+            "name": "1",
+            "tipo": "Casa",
+            "x": 223.0,
+            "y": 96.0
+        },
+        {
+            "currentEnergy": 0,
+            "energy": 20.0,
+            "id": "1010797591",
+            "idpertenece": "2140578239",
+            "name": "1",
+            "tipo": "Casa",
+            "x": 438.0,
+            "y": 106.0
+        },
+        {
+            "currentEnergy": 0,
+            "energy": 20.0,
+            "id": "160959953",
+            "idpertenece": "2140578239",
+            "name": "1",
+            "tipo": "Casa",
+            "x": 537.0,
+            "y": 125.99996948242188
+        },
+        {
+            "currentEnergy": 0,
+            "energy": 10.0,
+            "id": "1760923999",
+            "idpertenece": "2140578239",
+            "name": "1",
+            "tipo": "Casa",
+            "x": 443.0,
+            "y": 201.0
+        },
+        {
+            "currentEnergy": 17.0,
+            "energy": 300.0,
+            "id": "1010550535",
+            "idpertenece": "298597974",
+            "name": "sub2",
+            "tipo": "SubEstacion",
+            "x": 380.0000305175781,
+            "y": 514.9999389648438
+        },
+        {
+            "currentEnergy": 0,
+            "energy": 1.0,
+            "id": "971994120",
+            "idpertenece": "1010550535",
+            "name": "1",
+            "tipo": "Casa",
+            "x": 567.0,
+            "y": 384.9999694824219
+        },
+        {
+            "currentEnergy": 0,
+            "energy": 1.0,
+            "id": "155890573",
+            "idpertenece": "1010550535",
+            "name": "1",
+            "tipo": "Casa",
+            "x": 509.0,
+            "y": 395.0
+        },
+        {
+            "currentEnergy": 0,
+            "energy": 1.0,
+            "id": "459327610",
+            "idpertenece": "1010550535",
+            "name": "1",
+            "tipo": "Casa",
+            "x": 539.0,
+            "y": 509.9999694824219
+        },
+        {
+            "currentEnergy": 0,
+            "energy": 20.0,
+            "id": "523494851",
+            "idpertenece": "1010550535",
+            "name": "2",
+            "tipo": "Casa",
+            "x": 428.0,
+            "y": 384.9999694824219
+        },
+        {
+            "currentEnergy": 0,
+            "energy": 20.0,
+            "id": "66003364",
+            "idpertenece": "1010550535",
+            "name": "1",
+            "tipo": "Casa",
+            "x": 335.0,
+            "y": 671.9999389648438
+        },
+        {
+            "currentEnergy": 0,
+            "energy": 20.0,
+            "id": "1358781512",
+            "idpertenece": "1010550535",
+            "name": "1",
+            "tipo": "Casa",
+            "x": 618.0,
+            "y": 483.9999694824219
+        },
+        {
+            "currentEnergy": 0,
+            "energy": 20.0,
+            "id": "915213188",
+            "idpertenece": "1010550535",
+            "name": "1",
+            "tipo": "Casa",
+            "x": 652.0,
+            "y": 389.9999694824219
+        },
+        {
+            "currentEnergy": 0,
+            "energy": 200.0,
+            "id": "136603821",
+            "idpertenece": "1010550535",
+            "name": "1",
+            "tipo": "Casa",
+            "x": 593.0,
+            "y": 291.0
+        },
+        {
+            "currentEnergy": 0,
+            "energy": 20.0,
+            "id": "145052978",
+            "idpertenece": "2140578239",
+            "name": "2",
+            "tipo": "Casa",
+            "x": 134.0,
+            "y": 226.99996948242188
+        },
+        {
+            "currentEnergy": 0,
+            "energy": 10.0,
+            "id": "1350651183",
+            "idpertenece": "0",
+            "name": "1",
+            "tipo": "Casa",
+            "x": 547.0,
+            "y": 748.0
+        },
+        {
+            "currentEnergy": 0,
+            "energy": 10.0,
+            "id": "2015831545",
+            "idpertenece": "0",
+            "name": "1",
+            "tipo": "Casa",
+            "x": 477.0,
+            "y": 869.9999389648438
+        },
+        {
+            "currentEnergy": 0,
+            "energy": 10.0,
+            "id": "101163956",
+            "idpertenece": "0",
+            "name": "1",
+            "tipo": "Casa",
+            "x": 465.0,
+            "y": 748.0
+        }
+    ]
+}
