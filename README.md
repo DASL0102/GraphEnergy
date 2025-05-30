@@ -26,9 +26,9 @@ sudo apt-get install nlohmann-json3-dev
 
 ### Clonar el repositorio:
 ```bash
-git clone https://gitlab.com/daniel_exercise/ayda-proyecto-red-electrica.git
+git clone https://github.com/DASL0102/GraphEnergy.git
 
-cd ayda-proyecto-red-electrica
+cd GraphEnergy
 ```
 
 
